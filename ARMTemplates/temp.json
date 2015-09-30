@@ -1,0 +1,30 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "siteName": {
+            "value": "ToDoApp29595master"
+        },
+        "hostingPlanName": {
+            "value": "ASP29595master"
+        },
+        "siteLocation": {
+            "value": "West US"
+        },
+        "repoUrl": {
+            "value": "https://github.com/halkasimi/todoapp.git"
+        },
+        "branch": {
+            "value": "master"
+        },
+        "sqlServerName": {
+            "value": "todoappsql-29595master"
+        },
+        "sqlDbName": {
+            "value": "DemosDB"
+        },
+        "slotName": {
+            "value": "Staging"
+        }
+    }
+}
